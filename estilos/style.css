@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 html,body{
     padding: 0;
     margin: 0;
@@ -27,6 +29,8 @@ html,body{
 }
 h1{
     text-align: center;
+    text-shadow: 2px 2px 4px #ffff0054;
+    font-family: 'Cinzel Decorative';
 }
 .texto_apresentacao{
     width: 100%;

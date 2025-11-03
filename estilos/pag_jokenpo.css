@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 html, body{
     padding: 0;
     margin: 0;
@@ -10,39 +12,80 @@ html, body{
 #bloco_geral{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
+    align-items: center;
 }
-.nome_cpu{
-    padding: 10px;
-    padding-left: 1em;
-    font-size: 3em;
+.titulo{
+    color: #cece03a5;
+    text-shadow: 2px 2px 4px #ffff0054;
+    font-size: 5em;
+    font-family: 'Cinzel Decorative';
 }
-.nome_jogador{
-    align-self: flex-end;
-    padding: 10px;
-    padding-right: 1em;
-    font-size: 3em;
-}
-#bloco_cpu{
+.placar{
     display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: -5em;
-}
-#bloco_jogador{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 5em;
-}
-.escolha{
     width: 100%;
-    max-width: 120px;
-    height: auto;
+    max-width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid yellow;
+    box-shadow: 3px 3px 3px #ffff0054, -3px -3px 3px #ffff0054;
 }
-
-h1{
-    color: aliceblue;
+.nome_jog, .nome_cpu{
+    color: #808001;
+    font-size: 1.2em;
+    font-family: 'Cinzel Decorative';
+}
+.separador{
+    color: yellow;
+    font-size: 1.5em;
+}
+.placar_jog, .placar_cpu{
+    color: #deb307;
+    font-size: 1.5em;
+    font-family: 'Cinzel Decorative';
+}
+.texto_jogada{
+    color: #808001;
+    font-family: 'Cinzel Decorative';
+}
+.escolhas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 140px;
+    height: 65px;
+    border: 1px solid yellow;
+    box-shadow: 3px 3px 3px #ffff0054, -3px -3px 3px #ffff0054;
+}
+.jogada_jog{
+    color: #808001;
+    font-size: 1.5em;
+    font-family: 'Cinzel Decorative';
+}
+.separar_escolha{
+    width: 2px;
+    height: 60px;
+    background-color: #808001;
+}
+.jogada_cpu{
+    color: #808001;
+    font-size: 1.5em;
+    font-family: 'Cinzel Decorative';
+}
+#bloco_escolha{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    height: auto;
+    margin-top: 4em;
+}
+.jogada{
+    width: 100%;
+    max-width: 150px;
+    background-color: #000000b9;
+    border: 1px solid yellow;
+    border-radius: 110px;
 }
