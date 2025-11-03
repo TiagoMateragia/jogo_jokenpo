@@ -1,0 +1,48 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-image: url('../imagens/fundo_jogo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#bloco_geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+.nome_cpu{
+    padding: 10px;
+    padding-left: 1em;
+    font-size: 3em;
+}
+.nome_jogador{
+    align-self: flex-end;
+    padding: 10px;
+    padding-right: 1em;
+    font-size: 3em;
+}
+#bloco_cpu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5em;
+}
+#bloco_jogador{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+.escolha{
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+h1{
+    color: aliceblue;
+}
