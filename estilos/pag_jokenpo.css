@@ -82,10 +82,17 @@ html, body{
     height: auto;
     margin-top: 4em;
 }
-.jogada{
+.jogada_pedra, .jogada_papel, .jogada_tesoura{
     width: 100%;
     max-width: 150px;
     background-color: #000000b9;
     border: 1px solid yellow;
     border-radius: 110px;
+    transition: .5s;
+}
+.jogada_pedra:hover, .jogada_papel:hover, .jogada_tesoura:hover{
+    cursor: pointer;
+    scale: 0.9;
+    transition: .5s;
+    box-shadow: 3px 3px 3px #deb307, -3px -3px 3px #deb307;
 }
