@@ -75,6 +75,10 @@ html, body{
     font-size: 1.5em;
     font-family: 'Cinzel Decorative';
 }
+.msg_empate{
+    display: none;
+    margin-bottom: -2em;
+}
 #bloco_escolha{
     display: flex;
     flex-wrap: wrap;
