@@ -78,6 +78,8 @@ html, body{
 .msg_empate{
     display: none;
     margin-bottom: -2em;
+    font-family: 'Cinzel Decorative';
+    color: #808001;
 }
 #bloco_escolha{
     display: flex;
@@ -99,4 +101,66 @@ html, body{
     scale: 0.9;
     transition: .5s;
     box-shadow: 3px 3px 3px #deb307, -3px -3px 3px #deb307;
+}
+@media screen and (max-width: 500px){
+    .jogada_pedra, .jogada_papel, .jogada_tesoura{
+        width: 100%;
+        max-width: 120px;
+        background-color: #000000b9;
+        border: 1px solid yellow;
+        border-radius: 110px;
+        transition: .5s;
+    }
+    .jogada_pedra:active, .jogada_papel:active, .jogada_tesoura:active{
+        scale: 0.9;
+        transition: .5s;
+        box-shadow: 3px 3px 3px #deb307, -3px -3px 3px #deb307;
+    }
+}
+@media screen and (max-width: 400px){
+    .jogada_pedra, .jogada_papel, .jogada_tesoura{
+        width: 100%;
+        max-width: 100px;
+        background-color: #000000b9;
+        border: 1px solid yellow;
+        border-radius: 110px;
+        transition: .5s;
+    }
+    .jogada_pedra:active, .jogada_papel:active, .jogada_tesoura:active{
+        scale: 0.9;
+        transition: .5s;
+        box-shadow: 3px 3px 3px #deb307, -3px -3px 3px #deb307;
+    }
+    .titulo{
+        color: #cece03a5;
+        text-shadow: 2px 2px 4px #ffff0054;
+        font-size: 4em;
+        font-family: 'Cinzel Decorative';
+    }
+}
+@media screen and (max-width: 350px){
+    .titulo{
+        color: #cece03a5;
+        text-shadow: 2px 2px 4px #ffff0054;
+        font-size: 3em;
+        font-family: 'Cinzel Decorative';
+    }
+    .texto_jogada{
+        color: #808001;
+        font-family: 'Cinzel Decorative';
+        font-size: 1.5em;
+    }
+    .jogada_pedra, .jogada_papel, .jogada_tesoura{
+        width: 100%;
+        max-width: 85px;
+        background-color: #000000b9;
+        border: 1px solid yellow;
+        border-radius: 110px;
+        transition: .5s;
+    }
+    .jogada_pedra:active, .jogada_papel:active, .jogada_tesoura:active{
+        scale: 0.9;
+        transition: .5s;
+        box-shadow: 3px 3px 3px #deb307, -3px -3px 3px #deb307;
+    }
 }

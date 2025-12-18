@@ -52,3 +52,7 @@ h1{
     scale: .92;
     transition: .5s;
 }
+.botao_iniciar:active{
+    scale: .92;
+    transition: .5s;
+}
