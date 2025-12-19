@@ -6,6 +6,7 @@ o foco do projeto é praticar lógica de programação, manipulação do DOM, ev
 **Visão Geral**
 
    O sistema é composto por duas páginas principais:
+   
      * Página Inicial: tela de boas-vindas com apresentação do jogo e botão para iniciar.
      * Página do Jogo: tela principal onde o jogador enfrenta a CPU, visualiza o placar e faz suas jogadas.
 
@@ -28,6 +29,7 @@ o foco do projeto é praticar lógica de programação, manipulação do DOM, ev
 **Lógica do Jogo**
 
    O jogador escolhe Pedra, Papel ou Tesoura clicando em uma imagem, a CPU faz uma escolha aleatória utilizando Math.random() então o sistema compara as escolhas:
+   
       * Se forem iguais → empate
       * Caso contrário → incrementa o placar do vencedor
    O placar é atualizado dinamicamente na tela.
